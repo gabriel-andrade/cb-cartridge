@@ -3,6 +3,9 @@ export CB_HOME=$OPENSHIFT_DATA_DIR/opt/couchbase
 
 function start {
 
+  #Necesario para que Couchbase pueda funcionar
+  ulimit -n 10240
+
   echo Starting Couchbase ...
   cd $CB_HOME
   ./bin/couchbase-server \-- -noinput -detached
