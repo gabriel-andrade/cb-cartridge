@@ -1,6 +1,13 @@
 #!/bin/bash
-export CB_RPM='couchbase-server-enterprise-4.0.0-beta-centos6.x86_64.rpm'
-export CB_DOWNLOAD="http://packages.couchbase.com/releases/4.0.0-beta/$CB_RPM"
+
+# Couchbase 3
+export CB_RPM='couchbase-server-enterprise-3.0.2-centos6.x86_64.rpm'
+export CB_DOWNLOAD="http://packages.couchbase.com/releases/3.0.2/$CB_RPM"
+
+#Couchbase 4
+#export CB_RPM='couchbase-server-enterprise-4.0.0-beta-centos6.x86_64.rpm'
+#export CB_DOWNLOAD="http://packages.couchbase.com/releases/4.0.0-beta/$CB_RPM"
+
 export OPENSSL_RPM='openssl-1.0.1e-42.el6.x86_64.rpm'
 export OPENSSL_DOWNLOAD="http://mirror.centos.org/centos/6/os/x86_64/Packages/$OPENSSL_RPM"
 
