@@ -41,4 +41,4 @@ cd $CB_DIR
 ./bin/install/reloc.sh `pwd`
 
 echo 'Starting Couchbase Server ...'
-./bin/couchbase-server \-- -noinput -detached
+#./bin/couchbase-server \-- -noinput -detached
