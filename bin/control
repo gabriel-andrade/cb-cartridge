@@ -6,7 +6,7 @@ function start {
   echo Starting Couchbase ...
   cd $CB_HOME
   #Necesario para que Couchbase pueda funcionar
-  ulimit -n 10240 && ./bin/couchbase-server \-- -noinput -detached
+  ulimit -n 16384 && ./bin/couchbase-server \-- -noinput -detached
 
 }
 

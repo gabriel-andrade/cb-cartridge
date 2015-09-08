@@ -3,7 +3,7 @@ Cartridge-Short-Name: CB
 Cartridge-Version: '0.1'
 Compatible-Versions:
   - '1.0.1'
-Cartridge-Vendor: dmaier
+Cartridge-Vendor: gabriel-andrade
 Display-Name: Couchbase Cartridge
 Description: "This an example Couchbase cartridge for OpenShift v2"
 Version: '3.0.2'
@@ -44,7 +44,7 @@ Publishes:
     Type: "NET_TCP:gear-endpoint-info"
 Scaling:
   Min: 1
-  Max: 1
+  Max: -1
 Endpoints:
   - Private-IP-Name:   DB_HOST
     Private-Port-Name: DB_PORT
