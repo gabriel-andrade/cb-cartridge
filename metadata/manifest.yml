@@ -11,7 +11,7 @@ Versions:
   - '3.0.2'
 License: "Apache License v2"
 License-Url: http://www.apache.org/licenses/LICENSE-2.0
-Vendor: gabriel-andrade
+Vendor: gabrielandrade
 Categories:
   - service
   - embedded
